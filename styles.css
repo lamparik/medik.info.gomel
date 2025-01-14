@@ -2,10 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f8ff; /* Светлый фон */
+    background-image: url('фон.jpg'); /* Укажите путь к вашему фоновому изображению */
+    background-size: cover; /* Покрытие всего фона */
+    background-attachment: fixed; /* Фон фиксирован на месте при прокрутке */
+    background-position: center; /* Центрирование фона */
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.9); /* Прозрачный зеленый фон */
     color: white;
     padding: 1rem;
 }
@@ -27,10 +32,12 @@ nav ul li a {
 
 main {
     padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон для основного содержимого */
+    border-radius: 10px; /* Округление углов */
 }
 
 footer {
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.9);
     text-align: center;
     padding: 1rem;
     position: relative;
