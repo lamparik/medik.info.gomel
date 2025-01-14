@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Светлый фон */
-    background-image: url('фон.jpg'); /* Укажите путь к вашему фоновому изображению */
-    background-size: cover; /* Покрытие всего фона */
-    background-attachment: fixed; /* Фон фиксирован на месте при прокрутке */
-    background-position: center; /* Центрирование фона */
+    background-color: #f0f8ff;
+    background-image: url('фон.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header {
